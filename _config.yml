@@ -7,13 +7,13 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Andrew Lindsay
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: Computational biologist, etc
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: biology, bioinformatics
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -22,17 +22,14 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: geekbike@gmail.com
+twitter_username: nerdyaswild
+instagram_username: 
+linkedin_username: andrew-lindsay-868925196
+github_username:  knacko
+youtube_channel_id: 
+orc_id: 0000-0001-6607-5812
+stackoverflow_id: 1451667
 
 # Google Analytics
 google-analytics: UA-163806439-1
