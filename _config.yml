@@ -43,7 +43,7 @@ author-name: Andrew Lindsay
 # URL for the Image of the Author
 author-image: /assets/images/avatar.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: I am a molecular biology graduate student focusing in cancer biology at the<a href="https://www.uni-heidelberg.de/en">University of Heidelberg</a>/<a href="https://www.dkfz.de/en/index.html">German Cancer Research Center.</a>Previously, I've been involved with the<a href="http://agogbio.unsw.edu.au/">Australian Genomics and Clinical Outcomes of Glioma</a>project at the University in New South Wales and the<a href="https://eithealth.eu/project/sensus/">EIT Health SensUs</a>project at Uppsala Universitet/University of Eindhoven. My work has been both wet and dry, from developing a new<a href="https://github.com/knacko/F022-Multiplex-Serology-Dashboard">blood assay</a>for Syphilis to developing new<a href="https://github.com/knacko/scMethrix">bioinformatic tools</a>for investigating patient epigenomics.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: knacko.github.io
 
