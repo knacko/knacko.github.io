@@ -8,7 +8,14 @@
             <div class="content has-text-grey">
                 {{ project.details | truncate: 300 | strip_html | strip_newlines | strip | escape }}
                 <hr class="has-background-grey">
-                Languages <i class="fas fa-clock"></i> | <span class="has-text-grey">Last commit: <span class="has-text-weight-semibold">NEVER!</span></span>
+                {% assign i = 0 %}
+                {% for lang-icon in project.lang-icons %}
+                <span style="font-size: 0.8rem;">
+                <i class="fab fa-{{project.lang-icons[i]}} fa-2x"></i>
+                </span>
+                {% assign i = i | plus:1 %}
+                {% endfor %}
+                 | <span class="has-text-grey"> Last commit: <span class="has-text-weight-semibold">NEVER!</span></span>
             </div>
         </div>
     </a>
