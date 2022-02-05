@@ -64,6 +64,11 @@ plugins:
 # Permalink
 permalink: "blog/:title"
 
+collections_dir: content
+collections:
+  projects:
+    output: true
+
 # Compress
 compress_html:
   clippings: all
@@ -77,6 +82,16 @@ defaults:
       layout: post
       post-image: ""
       description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'projects'
+    values:
+      layout: project
+      project-image: ""
+      description: ""
+      details: ""
       tags:
         - ""
   -
