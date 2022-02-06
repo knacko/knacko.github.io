@@ -65,6 +65,7 @@ plugins:
 permalink: "blog/:title"
 
 collections_dir: content
+
 collections:
   projects:
     output: true
@@ -89,6 +90,7 @@ defaults:
       type: 'projects'
     values:
       layout: project
+      repo: ""
       project-image: ""
       description: ""
       details: ""

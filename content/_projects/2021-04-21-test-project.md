@@ -1,6 +1,7 @@
 ---
 title: scMethrix
 layout: project
+repo: knacko/scMethrix
 project-image: /assets/images/scMethrix-thumbnail.jpg
 description: R package for analyzing and storing single cell methylation data.
 details: Based upon the Bioconductor SummarizedExperiment container, this package adds specific functionality for single cell methylation analysis.
