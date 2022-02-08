@@ -69,6 +69,11 @@ collections_dir: content
 collections:
   projects:
     output: true
+    order:
+      - scMethrix.md
+      - brainphageDNAme.md
+      - DAGnalysis.md
+      - EpidExperiment.md
 
 # Compress
 compress_html:
@@ -91,7 +96,7 @@ defaults:
     values:
       layout: project
       repo: ""
-      project-image: ""
+      image: ""
       description: ""
       details: ""
       tags:

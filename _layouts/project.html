@@ -22,12 +22,17 @@ layout: compress
         <div class="columns is-variable is-5">
           <div class="column is-6">
             <figure class="image is-16by9 has-shadow">
-              <img src="{{page.project-image}}" alt="{{project.title}}" id="project-image">
+              <img src="{{page.image}}" alt="{{project.title}}" id="project-image">
             </figure>
           </div>
           <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
             {% unless page.description.size == 0 %}
             <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
+            {% endunless %}
+            {% unless page.repo.size == 0 %}
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/{{page.repo}}">
+            <code>View on Github</code></a>
             {% endunless %}
             {%- assign tags = page.tags -%}
             {%- unless tags.size == 0 -%}
