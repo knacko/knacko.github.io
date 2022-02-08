@@ -4,7 +4,7 @@ layout: project
 repo: knacko/EpidExperiment
 image: /assets/images/EpidExperiment-thumbnail.jpg
 description: R package for epidemiological analysis of questionnaire based studies.
-details: Based upon the Bioconductor SummarizedExperiment container, this package focuses on single cell methylation analysis, including functionality for statistics, dimensionality reduction, imputation, clustering, and numerous visualization options.
+details: Based upon the Bioconductor SummarizedExperiment container, this package focuses on epidemiological data from questionnaire-based studies. It has containers for raw binary data, directed acyclic graphs, data dictionaries, and multiple data classes for experimental data. It also includes functionality for statistics, dimensionality reduction, imputation, clustering, and numerous visualization options.
 lang-icons:
 - r-project
 tags:
@@ -12,6 +12,7 @@ tags:
 - DAGs
 - R
 - Bioconductor
+sort: bioinformatics
 ---
 
 Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}

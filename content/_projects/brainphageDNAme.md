@@ -4,7 +4,7 @@ layout: project
 repo: knacko/brainphageDNAme
 image: /assets/images/brainphageDNAme-thumbnail.jpg
 description: Scripts for analyzing epigenetics of the glioma tumor immune environment.
-details: Based upon the Bioconductor SummarizedExperiment container, this package focuses on single cell methylation analysis, including functionality for statistics, dimensionality reduction, imputation, clustering, and numerous visualization options.
+details: Scripts for analyzing the methylation landscape of the glioma tumor immune environment. This was done as part of my MSc thesis, and looked at generating signature matrices for cell deconvolution, and applied this to heterogenous tumor samples so as to correspond different immune proportions to different classes of tumors. Further work went into lineage analysis of macrophages in particular to identify resident microglia versus infiltrating monocyte-derived microglia.
 lang-icons:
 - r-project
 tags:
@@ -12,7 +12,9 @@ tags:
 - glioma
 - tumor microenvironment
 - immune
+- macrophages
 - R
+sort: bioinformatics
 ---
 
 Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}

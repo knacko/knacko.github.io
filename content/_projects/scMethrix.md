@@ -4,7 +4,7 @@ layout: project
 repo: CompEpigen/scMethrix
 image: /assets/images/scMethrix-thumbnail.jpg
 description: R package for analyzing and storing single cell methylation data.
-details: Based upon the Bioconductor SummarizedExperiment container, this package focuses on single cell methylation analysis, including functionality for statistics, dimensionality reduction, imputation, clustering, and numerous visualization options.
+details: Based upon the Bioconductor SummarizedExperiment container, this package focuses on single cell methylation analysis, including importation of .bedgraph and .idat data, and functionality for statistics, dimensionality reduction, imputation, clustering, and numerous visualization options.
 lang-icons:
 - r-project
 tags:
@@ -12,6 +12,7 @@ tags:
 - methylation
 - R
 - Bioconductor
+category: bioinformatics
 ---
 
 Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}

@@ -4,7 +4,7 @@ layout: project
 repo: knacko/DAGnalysis
 image: /assets/images/DAGnalysis-thumbnail.jpg
 description: Scripts for identifying epidemiological risk factors via directed acyclic graphs.
-details: Based upon the Bioconductor SummarizedExperiment container, this package focuses on single cell methylation analysis, including functionality for statistics, dimensionality reduction, imputation, clustering, and numerous visualization options.
+details: Scripts for determining risk and prognostic factors for glioma from a case-control study in Australia, as part of the Australian Genomics and Clinical Outcomes of Glioma (AGOG) project. Includes data consolidation, imputation, and odds ratio calculations, as well as their respective visualizations.
 lang-icons:
 - r-project
 tags:
@@ -12,6 +12,7 @@ tags:
 - glioma
 - DAGs
 - R
+sort: bioinformatics
 ---
 
 Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories and if you don't know what GitHub Pages are you can visit on click [here](https://help.github.com/en/github/working-with-github-pages/about-github-pages){:target="blank"} or [here](https://pages.github.com/){:target="blank"}

@@ -30,17 +30,20 @@ layout: compress
             <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
             {% endunless %}
             {% unless page.repo.size == 0 %}
-            <i class="fab fa-github"></i>
+            <p class="is-uppercase">
+            <i class="fab fa-github"></i>&nbsp
             <a href="https://github.com/{{page.repo}}">
-            <code>View on Github</code></a>
+            <span class="tag">View on Github</span></a>
+            </p>
+
             {% endunless %}
             {%- assign tags = page.tags -%}
             {%- unless tags.size == 0 -%}
-            <p class="subtitle is-uppercase">
+            <p class="is-uppercase">
               <i class="fas fa-tags"></i>
               {% assign i = 0 %}
               {% for tags in page.tags %}
-              <span class="tag is-link">{{page.tags[i]}}</span>
+              <span class="tag">{{page.tags[i]}}</span>
               {% assign i = i | plus:1 %}
               {% endfor %}
             </p>
