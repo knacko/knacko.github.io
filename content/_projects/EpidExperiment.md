@@ -1,10 +1,10 @@
 ---
-title: scMethrix
+title: EpidExperiment
 layout: project
-repo: knacko/scMethrix
-project-image: /assets/images/scMethrix-thumbnail.jpg
-description: R package for analyzing and storing single cell methylation data.
-details: Based upon the Bioconductor SummarizedExperiment container, this package adds specific functionality for single cell methylation analysis.
+repo: knacko/EpidExperiment
+project-image: /assets/images/EpidExperiment-thumbnail.jpg
+description: R package for epidemiological analysis of questionnaire based studies.
+details: Based upon the Bioconductor SummarizedExperiment container, this package focuses on single cell methylation analysis, including functionality for statistics, dimensionality reduction, imputation, clustering, and numerous visualization options.
 lang-icons:
 - r-project
 ---
