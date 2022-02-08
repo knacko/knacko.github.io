@@ -62,7 +62,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "blog/:title"
+permalink: "/:categories/:year/:month/:day/:title:output_ext"
 
 collections_dir: content
 
