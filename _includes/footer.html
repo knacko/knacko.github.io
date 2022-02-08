@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer" class="has-background-white-ter">
     <!--Footer Button-->
     <div class="container has-text-centered has-background-grey-darker" id="backtotop">
         <a class="has-text-white" onclick="window.scroll(0,0)">BACK TO TOP</a>
@@ -25,7 +25,7 @@
                 </a>
             </div>
 
-            <!--Link Section-->
+            <!--Link Section>
             <div class="column has-text-white">
                 <h3>More Links</h3>
                 {% for sitepage in site.html_pages offset: 4 %}
@@ -38,9 +38,9 @@
                 <li>
                     <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
                 </li>
-            </div>
+            </div -->
 
-            <!--Blog-post Section-->
+            <!--Blog-post Section>
             <div class="column has-text-white">
                 <h3>Recent Posts</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
@@ -48,7 +48,7 @@
                     <a href="{{post.url | absolute_url}}">{{post.title}}</a>
                 </li>
                 {% endfor %}
-            </div>
+            </div -->
         </div>
     </div>
     <div class="has-background-black has-text-centered has-text-white" id="credits">

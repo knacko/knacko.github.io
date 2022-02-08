@@ -1,11 +1,10 @@
-<section class="hero is-small" id="blog-slider">
+<section class="hero is-small has-background-white-ter" id="blog-slider">
   <div class="hero-body">
     <div class="container rows has-text-centered">
       <div class="row is-centered">
         <h3 class="title has-text-black-bis is-uppercase has-text-weight-medium">
           Recent blog posts</h3>
         </div>
-        <br>
         <div class="column has-text-black has-text-left is-size-4 is-inline-block">
           {% for post in site.posts offset: 0 limit:5 %}
           <li>
@@ -14,8 +13,8 @@
           {% endfor %}
         </div>
         <br>
-        <a href="{{site.url}}{{site.baseurl}}/blog.html"
-        class="button is-black is-rounded is-outlined is-uppercase has-text-weight-normal">See More</a>
+      <div class="container has-text-centered has-background-grey-darker" id="buttonsquare">
+          <a class="has-text-white" href="{{site.url}}{{site.baseurl}}/blog.html">SEE MORE</a>
       </div>
     </div>
 </section>
