@@ -1,64 +1,67 @@
 <section class="hero is-small has-text-centered" id="hero">
   <div class="hero-body">
     <div class="container">
-	                <div class="column is-2-desktop is-one-fifth-mobile is-one-fifth-tablet is-2-fullhd 
-					is-offset-5-desktop is-offset-two-fifths-mobile is-offset-two-fifths-tablet is-offset-5-fullhd"
-					style="padding-top: 50px;">
-                    <figure class="image">
-                        <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
-                    </figure>
-                </div>
-      <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
-        {{site.title}}
-      </h1>
-      <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
-        {{site.description}}
-      </h3>
-      <hr>
-	  <div class="column is-full is-size-3" id="contact">
-				{% unless site.email == %}
-				<a href="mailto:{{site.email}}" target="_blank" class="has-text-white"><i class="fas fa-envelope"></i></a>
-				{% endunless %}
-				{% unless site.github_username ==  %}
-                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-white"><i class="fab fa-github"></i></a>
-                {% endunless %}
-                {% unless site.facebook_username == %}
-                <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-white"><i class="fab fa-facebook"></i></a>
-                {% endunless %}
-                {% unless site.twitter_username == %}
-                <a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank" class="has-text-white"><i class="fab fa-twitter"></i></a>
-                {% endunless %}
-                {% unless site.instagram_username ==  %}
-                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-white"><i class="fab fa-instagram"></i></a>
-                {% endunless %}
-                {% unless site.linkedin_username ==  %}
-                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-white"><i class="fab fa-linkedin"></i></a>
-                {% endunless %}
-                {% unless site.youtube_channel_id ==  %}
-                <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-white"><i class="fab fa-youtube"></i></a>
-                {% endunless %}
-                {% unless site.reddit_username ==  %}
-                <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-white"><i class="fab fa-reddit"></i></a>
-                {% endunless %}
-                {% unless site.behance_username ==  %}
-                <a href="http://www.behance.com/{{site.behance_username}}" target="_blank" class="has-text-white"><i class="fab fa-behance"></i></a>
-                {% endunless %}
-                {% unless site.dribbble_username ==  %}
-                <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-white"><i class="fab fa-dribbble"></i></a>
-                {% endunless %}
-                {% unless site.spotify_username ==  %}
-                <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-white"><i class="fab fa-spotify"></i></a>
-                {% endunless %}
-				{% unless site.stackoverflow_id == %}
-                <a href="https://stackoverflow.com/users/{{site.stackoverflow_id}}" target="_blank" class="has-text-white"><i class="fab fa-stack-overflow"></i></a>
-                {% endunless %}
-				{% unless site.orc_id == %}
-                <a href="https://orcid.org/{{site.orc_id}}" target="_blank" class="has-text-white"><i class="fab fa-orcid"></i></a>
-                {% endunless %}
-            </div>
-      <!-- a href="{{site.url}}{{site.baseurl}}/#about"
-        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
-      </a -->
+      <div class="column is-2-desktop is-one-fifth-mobile is-one-fifth-tablet is-2-fullhd
+      is-offset-5-desktop is-offset-two-fifths-mobile is-offset-two-fifths-tablet is-offset-5-fullhd"
+      style="padding-top: 50px;">
+      <figure class="image">
+        <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
+      </figure>
     </div>
-  </div>
+    <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
+      {{site.title}}
+    </h1>
+    <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
+      {{site.description}}
+    </h3>
+    <hr>
+    <div class="column is-full is-size-3" id="contact">
+      {% unless site.email == %}
+      <a href="mailto:{{site.email}}" target="_blank" class="has-text-white"><i class="fas fa-envelope"></i></a>
+      {% endunless %}
+      {% unless site.github_username ==  %}
+      <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-white"><i class="fab fa-github"></i></a>
+      {% endunless %}
+      {% unless site.facebook_username == %}
+      <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-white"><i class="fab fa-facebook"></i></a>
+      {% endunless %}
+      {% unless site.twitter_username == %}
+      <a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank" class="has-text-white"><i class="fab fa-twitter"></i></a>
+      {% endunless %}
+      {% unless site.instagram_username ==  %}
+      <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-white"><i class="fab fa-instagram"></i></a>
+      {% endunless %}
+      {% unless site.linkedin_username ==  %}
+      <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-white"><i class="fab fa-linkedin"></i></a>
+      {% endunless %}
+      {% unless site.youtube_channel_id ==  %}
+      <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-white"><i class="fab fa-youtube"></i></a>
+      {% endunless %}
+      {% unless site.reddit_username ==  %}
+      <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-white"><i class="fab fa-reddit"></i></a>
+      {% endunless %}
+      {% unless site.behance_username ==  %}
+      <a href="http://www.behance.com/{{site.behance_username}}" target="_blank" class="has-text-white"><i class="fab fa-behance"></i></a>
+      {% endunless %}
+      {% unless site.dribbble_username ==  %}
+      <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-white"><i class="fab fa-dribbble"></i></a>
+      {% endunless %}
+      {% unless site.spotify_username ==  %}
+      <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-white"><i class="fab fa-spotify"></i></a>
+      {% endunless %}
+      {% unless site.stackoverflow_id == %}
+      <a href="https://stackoverflow.com/users/{{site.stackoverflow_id}}" target="_blank" class="has-text-white"><i class="fab fa-stack-overflow"></i></a>
+      {% endunless %}
+      {% unless site.orc_id == %}
+      <a href="https://orcid.org/{{site.orc_id}}" target="_blank" class="has-text-white"><i class="fab fa-orcid"></i></a>
+      {% endunless %}
+      {% unless site.kaggle_username == %}
+      <a href="https://www.kaggle.com/{{site.kaggle_username}}" target="_blank" class="has-text-white"><i class="fab fa-kaggle"></i></a>
+      {% endunless %}
+    </div>
+    <!-- a href="{{site.url}}{{site.baseurl}}/#about"
+    class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
+  </a -->
+</div>
+</div>
 </section>
