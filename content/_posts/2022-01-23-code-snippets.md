@@ -1,7 +1,7 @@
 ---
 title: 'Code Snippets to streamline your work'
 layout: post
-post-image: /assets/images/2022-01-23-code-snippets/code-snippets-3.jpg
+image: /assets/images/2022-01-23-code-snippets/code-snippets-3.jpg
 description: Code snippets are an easy-to-use productivity feature in RStudio that can quickly insert code skeletons for commonly used functions, and can be customized to save you from writing a ton of repetitive code.
 comments: true
 tags:
@@ -37,7 +37,7 @@ A user-modifiable format for section labels has been [suggested before](https://
 
 #### How snippets work
 
-Most users have seen code snippets, whether they realize it or not. By default, if you start writing a function, a box pops up beside the cursor to suggest possible elements you might be typing (e.g., functions, variables). You can click the respective element you want, and the editor will auto-complete that element. 
+Most users have seen code snippets, whether they realize it or not. By default, if you start writing a function, a box pops up beside the cursor to suggest possible elements you might be typing (e.g., functions, variables). You can click the respective element you want, and the editor will auto-complete that element.
 
 For certain functions, there exist built-in snippets that can do more than just complete the function name, but instead will generate a skeleton for its functionality. This can be seen for common commands like `if` and `for`, and even for multiple argument functions like `vapply`. Typing 'vapply', then hitting `SHIFT+TAB` will generate the code skeleton for `vapply`:
 

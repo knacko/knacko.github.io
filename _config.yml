@@ -86,7 +86,7 @@ defaults:
       type: 'posts'
     values:
       layout: post
-      post-image: ""
+      image: ""
       description: ""
       tags:
         - ""
