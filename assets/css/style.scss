@@ -3,6 +3,10 @@
 
 @import "main.scss";
 
+:root {
+  --maxWidth: 1000px;
+}
+
 #navbar {
     opacity: 0.95;
 }
@@ -37,7 +41,6 @@ a.navbar-item.is-active {
     border-color: grey;
 }
 
-
 #hero {
     background: rgb(0, 0, 0);
     //background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
@@ -61,9 +64,11 @@ a.navbar-item.is-active {
         content: "";
     }
 }
+
 .title {
     margin: auto 0.75rem!important;
 }
+
 .subtitle {
     letter-spacing: 0.25rem;
 }
@@ -160,11 +165,10 @@ a.navbar-item.is-active {
     #blog-card {
         transition: all 0.25s ease;
         margin: auto;
-        //margin-bottom: 0.5vmax;
         transform: scale(0.85);
-        max-width: 1200px;
-        //margin-right: 2.5vmax;
-        //margin-left: 2.5vmax;
+        max-width: var(--maxWidth);
+        margin-right: 2.5vmax auto;
+        margin-left: 2.5vmax auto;
         line-height: normal;
         border-radius: 0.25rem;
         -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
@@ -216,7 +220,6 @@ a.navbar-item.is-active {
     }
 }
 
-
 #post {
 
   //align-items: center;
@@ -255,6 +258,8 @@ a.navbar-item.is-active {
 
     .content {
 
+        max-width: var(--maxWidth);
+
         p {
           .caption {
               vertical-align: super;
@@ -269,6 +274,7 @@ a.navbar-item.is-active {
         }
 
         ol, ul, blockquote {
+          margin-top: 0px;
             display: inline-block;
         }
         hr{
@@ -320,18 +326,17 @@ a.navbar-item.is-active {
     }
 
     #project-card {
-        transition: all 0.25s ease;
-        margin: auto;
-        max-width: 1200px;
-        //margin-bottom: 0.5vmax;
-        transform: scale(0.85);
-        //margin-right: 2.5vmax;
-        //margin-left: 2.5vmax;
-        line-height: normal;
-        border-radius: 0.25rem;
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      transition: all 0.25s ease;
+      margin: auto;
+      transform: scale(0.85);
+      max-width: var(--maxWidth);
+      margin-right: 2.5vmax auto;
+      margin-left: 2.5vmax auto;
+      line-height: normal;
+      border-radius: 0.25rem;
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
 
         &:hover {
             transform: scale(0.875);
@@ -379,6 +384,14 @@ a.navbar-item.is-active {
 }
 
 #project {
+
+  //align-items: center;
+
+    .hero-body {
+        padding: 3rem 0.25rem 1rem 0.25rem;
+      //  max-width: 1000px;
+    }
+
     @media (min-width: 768px) {
         margin: auto 2.5vmax;
     }
@@ -405,16 +418,33 @@ a.navbar-item.is-active {
     .tag {
         margin: 0.15rem auto;
     }
+
     .content {
 
+        max-width: var(--maxWidth);
+
+        p {
+          .caption {
+              vertical-align: super;
+              font-size: 80%;
+              display: block;
+          }
+
+          .figure{
+              margin-bottom: 0px;
+              display: block;
+          }
+        }
+
         ol, ul, blockquote {
+          margin-top: 0px;
             display: inline-block;
         }
         hr{
             background-color: grey;
         }
         img, iframe {
-            max-width: calc(100% - 25vw);
+            max-width: calc(100% - 5vw);
             margin: 0.25rem auto;
             @media (max-width: 768px) {
                 max-width: calc(100% - 5vw);
@@ -428,6 +458,7 @@ a.navbar-item.is-active {
     .container {
         margin: 2.5rem auto;
         word-break: break-word;
+        //align-items: center;
         //max-width: -webkit-fill-available;
     }
 

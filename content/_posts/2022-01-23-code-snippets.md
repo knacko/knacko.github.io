@@ -2,7 +2,7 @@
 title: 'Code Snippets to streamline your work'
 layout: post
 post-image: /assets/images/2022-01-23-code-snippets/code-snippets-3.jpg
-description: In this post, we'll look at how to use code snippets within `RStudio`. It's an easy-to-use productivity feature that can quickly insert code skeletons for commonly used functions, and can be customized to save you from writing a ton of repetitive code.
+description: Code snippets are an easy-to-use productivity feature in RStudio that can quickly insert code skeletons for commonly used functions, and can be customized to save you from writing a ton of repetitive code.
 comments: true
 tags:
 - RStudio
@@ -12,12 +12,12 @@ tags:
 ---
 
 #### Contents
-1. [Intro](#intro)
-2. [A typical use case](#a-typical-use-case)
-3. [How snippets work](#how-snippets-work)
-4. [Using snippets](#using-snippets)
-5. [Exporting snippets](#exporting-snippets)
-6. [Snippets not working?](#snippets-not-working)
+> 1. [Intro](#intro)
+> 2. [A typical use case](#a-typical-use-case)
+> 3. [How snippets work](#how-snippets-work)
+> 4. [Using snippets](#using-snippets)
+> 5. [Exporting snippets](#exporting-snippets)
+> 6. [Snippets not working?](#snippets-not-working)
 
 #### Intro
 
@@ -37,7 +37,9 @@ A user-modifiable format for section labels has been [suggested before](https://
 
 #### How snippets work
 
-Most users have seen code snippets, whether they realize it or not. By default, if you start writing a function, a box pops up beside the cursor to suggest possible elements you might be typing (e.g., functions, variables). You can click the respective element you want, and the editor will auto-complete that element. For certain functions, there exist built-in snippets that can do more than just complete the function name, but instead will generate a skeleton for its functionality. This can be seen for common commands like `if` and `for`, and even for multiple argument functions like `vapply`. Typing 'vapply', then hitting `SHIFT+TAB` will generate the code skeleton for `vapply`:
+Most users have seen code snippets, whether they realize it or not. By default, if you start writing a function, a box pops up beside the cursor to suggest possible elements you might be typing (e.g., functions, variables). You can click the respective element you want, and the editor will auto-complete that element. 
+
+For certain functions, there exist built-in snippets that can do more than just complete the function name, but instead will generate a skeleton for its functionality. This can be seen for common commands like `if` and `for`, and even for multiple argument functions like `vapply`. Typing 'vapply', then hitting `SHIFT+TAB` will generate the code skeleton for `vapply`:
 
 <p align="center">
 <img src="/assets/images/2022-01-23-code-snippets/code-snippets-1.jpg" alt="Vapply code snippet pop-up" class="figure"><!--
