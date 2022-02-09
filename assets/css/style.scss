@@ -252,7 +252,21 @@ a.navbar-item.is-active {
     .tag {
         margin: 0.15rem auto;
     }
+
     .content {
+
+        p {
+          .caption {
+              vertical-align: super;
+              font-size: 80%;
+              display: block;
+          }
+
+          .figure{
+              margin-bottom: 0px;
+              display: block;
+          }
+        }
 
         ol, ul, blockquote {
             display: inline-block;

@@ -2,8 +2,8 @@
 title: What is Jekyll? How to use it?
 layout: post
 post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/What%20is%20Jekyll%20and%20How%20to%20use%20it.png?token=AHMQUELVG36IDSA4SZEZ5P26Z64IW"
-description: Jekyll is a static site generator. You give it text written in your favorite
-  markup language and it uses layouts to create a static website.
+description: Jekyll is a static site generator. You give it text written in your favorite markup language and it uses layouts to create a static website. test test test  test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test v
+comments: true
 tags:
 - jekyll
 - informative
@@ -14,7 +14,7 @@ Jekyll is a simple, blog-aware, static site generator perfect for personal, proj
 ###### Source : [`Jekyll Docs`](https://jekyllrb.com/docs/)
 
 > ### To know more and get started with Jekyll you can click [here](https://jekyllrb.com/){:targe="_blank"}
-	
+
 # Installation
 **Jekyll is a Ruby Gem that can be installed on most systems.**
 ### Requirements
