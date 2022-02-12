@@ -5,10 +5,10 @@
         <h3 class="title has-text-black-bis is-uppercase has-text-weight-medium">
           Recent blog posts</h3>
         </div>
-        <div class="column has-text-black has-text-left is-size-4 is-inline-block">
+        <div class="column has-text-black has-text-left is-inline-block">
           {% for post in site.posts offset: 0 limit:5 %}
           <li>
-            <a href="{{post.url | absolute_url}}">{{post.title}}</a>
+            <span class="has-text-weight-semibold"><a href="{{post.url | absolute_url}}">{{post.title}}</a></span> {{ post.date | date: "%-B %d, %Y" }}
           </li>
           {% endfor %}
         </div>

@@ -4,7 +4,11 @@
 @import "main.scss";
 
 :root {
-  --maxWidth: 1000px;
+  --maxWidth: 800px;
+}
+
+.container {
+  max-width: 1000px;
 }
 
 #navbar {
@@ -74,6 +78,7 @@ a.navbar-item.is-active {
 }
 
 #about {
+
     .image {
         max-width: 20vmax;
         margin: auto;
@@ -125,27 +130,7 @@ a.navbar-item.is-active {
     }
 }
 */
-#project-thumb {
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-    transform: scale(0.95);
-    transition: all 0.5s ease;
-    margin-bottom: 0.5rem !important;
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
-    display: inline-table;
-    &:hover {
-        transform: scale(0.975);
-    }
-}
 
-.thumb {
-    transition: all 0.25s ease;
-    &:hover {
-        background-color: rgba($color: #000000, $alpha: 0.90)!important;
-    }
-}
 
 #blog {
 
@@ -157,7 +142,7 @@ a.navbar-item.is-active {
     }
 
     .container {
-      margin: 2.5rem auto;
+      margin: 1.5rem auto;
       word-break: break-word;
       //max-width: 1200px;
     }
@@ -166,7 +151,6 @@ a.navbar-item.is-active {
         transition: all 0.25s ease;
         margin: auto;
         transform: scale(0.85);
-        max-width: var(--maxWidth);
         margin-right: 2.5vmax auto;
         margin-left: 2.5vmax auto;
         line-height: normal;
@@ -322,14 +306,15 @@ a.navbar-item.is-active {
     }
 
     .container {
-        margin: 1.5rem auto;
+      margin: 1.5rem auto;
+      word-break: break-word;
+      //max-width: 1200px;
     }
 
     #project-card {
       transition: all 0.25s ease;
       margin: auto;
       transform: scale(0.85);
-      max-width: var(--maxWidth);
       margin-right: 2.5vmax auto;
       margin-left: 2.5vmax auto;
       line-height: normal;
@@ -381,6 +366,36 @@ a.navbar-item.is-active {
             }
         }
     }
+}
+
+#project-slider {
+
+  #project-thumb {
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+      transform: scale(0.95);
+      transition: all 0.5s ease;
+      margin-bottom: 0.5rem !important;
+      margin-right: 0.5rem !important;
+      margin-left: 0.5rem !important;
+      display: inline-table;
+      &:hover {
+          transform: scale(0.975);
+      }
+  }
+
+  .thumb {
+      transition: all 0.25s ease;
+      &:hover {
+          background-color: rgba($color: #000000, $alpha: 0.90)!important;
+      }
+  }
+
+  .thumb-desc {
+    margin: 0.5rem !important;
+  }
+
 }
 
 #project {
