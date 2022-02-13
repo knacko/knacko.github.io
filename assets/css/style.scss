@@ -77,6 +77,11 @@ a.navbar-item.is-active {
     letter-spacing: 0.25rem;
 }
 
+code {
+  padding: 0px;
+  font-size: 1em;
+}
+
 #about {
 
     .image {
@@ -130,6 +135,18 @@ a.navbar-item.is-active {
     }
 }
 */
+
+#blog-slider {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+}
 
 
 #blog {
@@ -397,6 +414,9 @@ a.navbar-item.is-active {
   }
 
 }
+
+
+
 
 #project {
 

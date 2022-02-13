@@ -7,9 +7,11 @@
         </div>
         <div class="column has-text-black has-text-left is-inline-block">
           {% for post in site.posts offset: 0 limit:5 %}
-          <li>
-            <span class="has-text-weight-semibold"><a href="{{post.url | absolute_url}}">{{post.title}}</a></span> {{ post.date | date: "%-B %d, %Y" }}
-          </li>
+          <ul><li>
+            <span class="icon has-text-grey-dark is-small"><i class="{{ post.icon }}"></i></span>&nbsp&nbsp
+            <span class="has-text-weight-medium is-size-5"><a href="{{post.url | absolute_url}}">{{post.title}}</a></span>&nbsp
+            <span class="has-text-grey is-size-6">{{ post.date | date: "%-B %d, %Y" }}</span>
+          </li></ul>
           {% endfor %}
         </div>
       <div class="container has-text-centered has-background-grey-darker" id="buttonsquare">

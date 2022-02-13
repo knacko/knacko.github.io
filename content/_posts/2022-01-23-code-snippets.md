@@ -2,6 +2,7 @@
 title: 'Code Snippets to streamline your work'
 layout: post
 image: /assets/images/2022-01-23-code-snippets/code-snippets-3.jpg
+icon: fas fa-laptop-code
 description: Code snippets are an easy-to-use productivity feature in RStudio that can quickly insert code skeletons for commonly used functions, and can be customized to save you from writing a ton of repetitive code.
 comments: true
 tags:
@@ -83,7 +84,7 @@ snippet sect-
 #==== label ====================================================================
 ```
 
-The big limitation is that you can't use any `space` characters in the label. I use this primarily for function names, and separating sections in a function like validation, code, or logic, so it serves sufficiently well until a similar functionality is included with RStudio. However, there may be a solution to this using custom keyboard shortcuts, but I'll explore that in a future post.
+The big limitation is that you can't use any `SPACE` characters in the label. I use this primarily for function names, and separating sections in a function like validation, code, or logic, so it serves sufficiently well until a similar functionality is included with RStudio. However, there may be a solution to this using custom keyboard shortcuts, but I'll explore that in a future post.
 
 For some of the snippets I use day-to-day, check out [here](https://github.com/knacko/Rsnippets).
 
